@@ -83,7 +83,8 @@ The centralised data warehouse uses a star schema with the following tables:
 
 A denormalised analytical table that combines job posting data with related dimensions to simplify reporting.
 
-![alt text](1_2_Flat_Mart.png)
+<img width="1656" height="1248" alt="1_2_Flat_Mart" src="https://github.com/user-attachments/assets/e9f81018-1d3f-4cc2-8dbb-dee130215c0b" />
+
 
 **SQL File:** `03_create_flat_mart.sql`
 
@@ -95,7 +96,8 @@ A denormalised analytical table that combines job posting data with related dime
 
 A specialised analytical data mart designed to investigate technical skill demand and employment trends over time.
 
-![alt text](1_2_Skills_Mart.png)
+<img width="1644" height="728" alt="1_2_Skills_Mart" src="https://github.com/user-attachments/assets/5cb7c49d-cd67-4275-bef8-c6b5e1815630" />
+
 
 **SQL File:** `04_create_skills_mart.sql`
 
