@@ -2,8 +2,9 @@
 
 An end-to-end data engineering pipeline that transforms raw CSV files from Google Cloud Storage into a structured star schema data warehouse and builds specialised analytical data marts for business intelligence and reporting.
 
+<img width="1620" height="768" alt="1_2_Project2_Data_Pipeline" src="https://github.com/user-attachments/assets/e55896e7-2c4a-4bc9-ad81-caf1e7fde924" />
 
-![alt text](1_2_Project2_Data_Pipeline.png)
+
 ---
 
 ## 📌 Executive Summary
@@ -49,8 +50,9 @@ The solution also incorporates specialised analytical data marts to simplify que
 ---
 
 ## 🏗️ Pipeline Architecture
+<img width="1620" height="768" alt="1_2_Project2_Data_Pipeline" src="https://github.com/user-attachments/assets/9933d9fd-4c24-496a-861d-d29c17d580fc" />
 
-![alt text](1_2_Project2_Data_Pipeline-1.png)
+
 
 The pipeline transforms job posting CSV datasets from Google Cloud Storage into a structured data warehouse before generating specialised analytical data marts.
 
@@ -65,7 +67,8 @@ The centralised data warehouse uses a star schema with the following tables:
 - `job_postings_fact`
 - `skills_job_dim`
 
-![alt text](1_2_Data_Warehouse.png)
+<img width="1586" height="1254" alt="1_2_Data_Warehouse" src="https://github.com/user-attachments/assets/6c6a997f-80c8-4275-871e-63729547d2c2" />
+
 
 **SQL Files:**
 
@@ -111,7 +114,8 @@ A specialised analytical data mart designed to investigate technical skill deman
 
 An analytical data mart focused on priority job roles and incremental data updates.
 
-![alt text](1_2_Priority_Mart.png)
+<img width="1976" height="1316" alt="1_2_Priority_Mart" src="https://github.com/user-attachments/assets/e8d35d4e-4576-428b-8597-c1668b6bd6e0" />
+
 
 **SQL Files:**
 
@@ -133,7 +137,8 @@ An analytical data mart focused on priority job roles and incremental data updat
 
 A specialised analytical data mart designed to investigate company hiring activity.
 
-![alt text](1_2_Company_Mart.png)
+<img width="1692" height="1084" alt="1_2_Company_Mart" src="https://github.com/user-attachments/assets/585c76e0-a09e-4335-b84a-e7f7007750eb" />
+
 
 **SQL File:** `07_create_company_mart.sql`
 
